@@ -1,7 +1,8 @@
 import React from 'react';
+import './NotFound.css';
 
-export default function notFound() {
+export default function NotFound() {
   return (
-    <div>notFound</div>
+    <div className='notFound'>You dont belong here!</div>
   );
 }
