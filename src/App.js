@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header/Header';
 import Main from './Main/Main';
 import NotFound from './NotFound/NotFound';
+import Home from './Home/Home';
 
 
 
@@ -18,10 +19,18 @@ function App() {
           <Main />
         </Route>
 
+
+        <Route exact path='/'>
+          <Home />
+        </Route>
+
         <Route path='*'>
           <NotFound />
         </Route>
         
+
+
+
       </Switch>
       
     </div>
