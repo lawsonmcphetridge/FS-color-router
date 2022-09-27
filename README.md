@@ -51,3 +51,19 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 ## Additional considerations
 - Is any of your state redundant? For example, if you're tracking `wins`, `losses`, and `total`, you can probably get rid of `losses` state, and calculate it as `total - wins`.
 - Where should each piece of state live? How are you going to get data from where it lives to where it needs to be?
+
+
+
+## FS color router
+
+What components will I need?
+
+1) main home page with 3 links at the top.  //nav links in header
+
+2) not found component
+
+3) a hook that uses useParams to get values from routes // pull from the param to populate then style have it in the params in route
+
+https://reactrouter.com/en/main/hooks/use-params
+
+ ## <div style={{ background: rgb`${red}, ${green}, ${blue}`}}></div>
