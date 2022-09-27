@@ -69,3 +69,6 @@ What components will I need?
 https://reactrouter.com/en/main/hooks/use-params
 
  ## <div style={{ background: rgb`${red}, ${green}, ${blue}`}}></div>
+  one route is going to have parameters defined on it
+
+  build component that gets rendered when you go to this path path='/rgb/:red/:green/:blue'

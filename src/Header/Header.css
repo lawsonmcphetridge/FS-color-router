@@ -1,0 +1,14 @@
+.header {
+    width: 100%;
+    background-color: black;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    position: absolute;
+}
+
+.active {
+    font-family:monospace;
+    text-decoration: none;
+}
