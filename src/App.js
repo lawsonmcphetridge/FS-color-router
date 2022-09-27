@@ -2,7 +2,7 @@ import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Header from './Header/Header';
 import Main from './Main/Main';
-import NotFound from './NotFound/NotFound';
+import NotFound from './FoundNot/FoundNot';
 
 
 
