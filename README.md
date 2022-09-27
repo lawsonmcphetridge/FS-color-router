@@ -64,6 +64,8 @@ What components will I need?
 
 3) a hook that uses useParams to get values from routes // pull from the param to populate then style have it in the params in route
 
+
+
 https://reactrouter.com/en/main/hooks/use-params
 
  ## <div style={{ background: rgb`${red}, ${green}, ${blue}`}}></div>
