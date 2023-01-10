@@ -7,10 +7,11 @@ module.exports = {
   entry: ['./src/index.js'],
   output: {
     publicPath: '/',
-    path: __dirname + '/dist',
     filename: 'app.bundle.js',
+    path: __dirname + '/build',
     clean: true,
   },
+
   devServer: {
     historyApiFallback: true,
   },
@@ -32,9 +33,7 @@ module.exports = {
   },
   plugins: [
     new CopyPlugin({
-      patterns: [
-        { from: 'public', to: '.' },
-      ],
+      patterns: [{ from: 'public', to: '.' }],
     }),
     new HtmlWebpackPlugin({
       template: './src/index.html',
